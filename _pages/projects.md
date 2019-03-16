@@ -7,7 +7,7 @@ header:
     image: "/images/nasa-sky.jpg"
 ---
 
-{% include base_path %}
+<!-- {% include base_path %} -->
 {% include group-by-array collections=site.post field="tags" %}
 
 {% for tag in group_names %}
