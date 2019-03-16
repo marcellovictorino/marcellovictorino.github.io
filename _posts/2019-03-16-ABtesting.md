@@ -1,7 +1,7 @@
 ---
 title: ""
 date: 2019-03-16
-tags: [data analysis, A/B testing]
+tags: [Data Analysis]
 header:
     image: "/images/nasa-sky.jpg"
 excerpt: "Testing"
