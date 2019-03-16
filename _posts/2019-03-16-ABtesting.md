@@ -19,4 +19,4 @@ import numpy as np
 ```
 Inline code: `np.random.normal()`
 
-Math example: $H_0: \mu = 0$
+Math example: $$H_0: \mu = 0$$
