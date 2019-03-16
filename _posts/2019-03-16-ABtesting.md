@@ -5,6 +5,7 @@ tags: [data analysis, A/B testing]
 header:
     # image: "/images/..."
 excerpt: "Testing"
+mathjax: "true"
 ---
 
 # Testing MarkDown for article writing.
