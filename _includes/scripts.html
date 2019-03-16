@@ -26,3 +26,8 @@
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
+
+{% if page.mathjax %}
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/Mathjax.js?config=Tex-MMl-AM CHTML">
+</script>
+{% endif %}
