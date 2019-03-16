@@ -10,7 +10,7 @@ header:
 {% include base_path %}
 {% include group-by-array collections=site.post field="tags" %}
 
-{% for tag in grooup_names %}
+{% for tag in group_names %}
     {% assign posts = group_items[forloop.index0] %}
     <h2 id="{{ tag | slugfy }}" class="archive__subtitle">{{ tag }}</h2>
     {% for post in posts %}
