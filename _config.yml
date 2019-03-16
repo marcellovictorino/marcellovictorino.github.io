@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Marcello Victorino"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/profile_picture.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
   location         : "Oxfordshire, UK"
   email            :
