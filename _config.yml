@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Marcello Victorino"
   avatar           : "/images/profile_picture.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Problem Solver,interested in all things data!"
   location         : "Oxfordshire, UK"
   email            :
   links:
@@ -127,9 +127,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/marcellovictorino"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/marcello-victorino-a2b41656/"
 
 # Site Footer
 footer:
