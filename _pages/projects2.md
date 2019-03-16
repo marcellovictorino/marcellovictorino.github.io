@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /projects/
+permalink: /projects2/
 title: "Data Science Projects"
 author_profile: true
 header:
