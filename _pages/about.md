@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-    image: "/images/wallpaper2.jpg"
+    image: "/images/picture_dolphins.png"
 ---
 
 I am a Problem Solver using data analytics to support making better and data-driven business decisions (not necessarily for the private sector).
