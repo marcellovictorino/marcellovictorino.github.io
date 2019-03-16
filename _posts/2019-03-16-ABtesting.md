@@ -4,7 +4,7 @@ date: 2019-03-16
 tags: [Data Analysis]
 header:
     image: "/images/nasa-sky.jpg"
-excerpt: "Testing"
+excerpt: "Summary of A/B testing with an application example, handling for multiple tests correction using Holm-Bonferroni."
 mathjax: "true"
 ---
 
