@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "My Data Journey"
+title                    : "Marcello Victorino"
 title_separator          : "|"
 name                     : "Marcello Victorino"
 description              : "Personal blog about data science to share the knowledge."
