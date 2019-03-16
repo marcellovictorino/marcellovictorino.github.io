@@ -11,7 +11,7 @@ mathjax: "true"
 # Testing MarkDown for article writing.
 
 Adding an image example:
-<img src="{{ site.url }}{{ site.bsaeurl }}/images/logo_victorino3_77x88.png" alt="logo_image">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logo_victorino3_77x88.png" alt="logo_image">
 
 ```python
 import pandas as pd
