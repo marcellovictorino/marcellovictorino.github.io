@@ -7,6 +7,14 @@ entries_layout: grid
 classes: wide
 ---
 
-#Testing Grid Example
+<ul>
+	{% for post in site.posts %}
+	<li>
+		<a href="{{ post.url }}">{{ post.title}}</a> 
+		<br>
+		<small>{{ post.excerpt }}</small>
+	</li>
+	{% endfor %}
+</ul>
 
-## How does it work!?
+

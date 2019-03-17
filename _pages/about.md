@@ -3,6 +3,7 @@ title: "About"
 permalink: /about/
 header:
     image: "/images/banner_about.jpg"
+classes: wide
 ---
 
 I am a Problem Solver using data analytics to support making better and data-driven business decisions (not necessarily for the private sector).
