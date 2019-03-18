@@ -2,11 +2,11 @@
 title: A/B Testing Summary
 excerpt: Summary of A/B testing with an application example, handling for multiple
   tests correction using Holm-Bonferroni.
-tags:
-- Data Analysis
+tags: [Data Analysis]
+categories: [Post]
 date: 2019-03-16 00:00:00 +0000
 thumbnail: "/images/ab-testing.jpg"
-rating: 4
+
 
 ---
 ## Difficulties to bear in mind
