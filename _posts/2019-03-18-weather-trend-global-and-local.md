@@ -1,5 +1,4 @@
 ---
-layout: single
 title: 'Weather Trend: Global and Local'
 excerpt: >-
   Explores the Weather dataset analyzing trends and patterns in the Global and
@@ -9,7 +8,6 @@ categories: [Project]
 date: 2019-02-16T12:38:23.535Z
 thumbnail: /images/global-warming.jpg
 # classes: wide
-author_profile: true
 ---
 
 ## Abstract

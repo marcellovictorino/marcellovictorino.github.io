@@ -289,14 +289,14 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
       comments: # true
       share: true
       related: true
       toc: true
-      toc_label: "On this post..."
-      toc_icon: "file-alt"
+      # toc_label: "On this post..."
+      # toc_icon: "file-alt"
       mathjax: "true"
 
   # _pages
