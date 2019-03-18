@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/site/ABtesting/</loc>
+<loc>http://localhost:4000/_site/ABtesting/</loc>
 <lastmod>2019-03-16T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/site/about/</loc>
+<loc>http://localhost:4000/_site/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/site/</loc>
+<loc>http://localhost:4000/_site/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/site/portfolio/</loc>
+<loc>http://localhost:4000/_site/portfolio/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/site/posts-by-tags/</loc>
+<loc>http://localhost:4000/_site/posts-by-tags/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/site/admin/</loc>
+<loc>http://localhost:4000/_site/admin/</loc>
 <lastmod>2019-03-17T20:42:06+00:00</lastmod>
 </url>
 </urlset>
