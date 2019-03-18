@@ -1,10 +1,11 @@
 ---
 layout: archive
 permalink: /projects/
-title: "Data Science Projects"
+title: "" #"Data Science Projects"
 author_profile: true
-header:
-    image: "/images/banner_equations.jpg"
+classes: wide
+# header:
+#     image: "/images/banner_equations.jpg"
 ---
 
 {% include group-by-array collection=site.posts field="tags" %}
