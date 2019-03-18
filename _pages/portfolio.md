@@ -16,20 +16,20 @@ classes: wide
 <div class="row">
     <div class="col-md-4">
 		<a href="{{ post.url }}"><img src="{{ post.thumbnail }}"/></a>
-		<a href="{{ post.url }}"> <h4>{{ post.title}}</h4></a> 
+		<a href="{{ post.url }}"> <h5>{{ post.title}}</h5></a> 
 		<small>{{ post.excerpt }}</small>
 	</div>
     {% elsif rowfinder == 0 %}
     <div class="col-md-4">
 		<a href="{{ post.url }}"><img src="{{ post.thumbnail }}"/></a>
-		<a href="{{ post.url }}"> <h4>{{ post.title}}</h4></a> 
+		<a href="{{ post.url }}"> <h5>{{ post.title}}</h5></a> 
 		<small>{{ post.excerpt }}</small>
 	 </div>
 </div>
     {% else %}
     <div class="col-md-4">
 		<a href="{{ post.url }}"><img src="{{ post.thumbnail }}"/></a>
-		<a href="{{ post.url }}"> <h4>{{ post.title}}</h4></a> 
+		<a href="{{ post.url }}"> <h5>{{ post.title}}</h5></a> 
 		<small>{{ post.excerpt }}</small>
 	</div>
     {% endif %}
