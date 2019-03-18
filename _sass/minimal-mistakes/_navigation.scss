@@ -177,7 +177,8 @@
   -ms-flex-align: center;
   align-items: center;
   min-height: $nav-height;
-  background: $background-color;
+  // background: $background-color;
+  background: $navbar-background-color; // custom
 
   a {
     display: block;
@@ -424,7 +425,7 @@
       }
 
       &:hover {
-        text-decoration: underline;
+        text-decoration: none;
       }
     }
   }

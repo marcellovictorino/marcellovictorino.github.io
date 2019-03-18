@@ -53,7 +53,10 @@ $darker-gray: mix(#000, $gray, 60%) !default;
 $light-gray: mix(#fff, $gray, 50%) !default;
 $lighter-gray: mix(#fff, $gray, 90%) !default;
 
-$background-color: #fff !default;
+$navbar-text-color: #fff; // custom navbar text color
+$navbar-background-color: #343a40 !default; // custom navbar background color
+
+$background-color: rgb(255, 255, 255) !default; // navbar background color
 $code-background-color: #fafafa !default;
 $code-background-color-dark: $light-gray !default;
 $text-color: $dark-gray !default;
@@ -105,8 +108,8 @@ $xing-color: #006567 !default;
 $link-color: mix(#000, $info-color, 15%) !default;
 $link-color-hover: mix(#000, $link-color, 25%) !default;
 $link-color-visited: mix(#fff, $link-color, 15%) !default;
-$masthead-link-color: $primary-color !default;
-$masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
+$masthead-link-color: #fff; //$primary-color !default; // navbar text
+$masthead-link-color-hover: mix(#fff, $primary-color, 75%) !default; // navbar text when hovered
 $navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default;
 
 /* syntax highlighting (base16) */

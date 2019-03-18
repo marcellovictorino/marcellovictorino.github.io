@@ -24,6 +24,7 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     font-family: $sans-serif-narrow;
+    background-color: $navbar-background-color;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -80,6 +81,7 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  // font-weight: bold; // navbar text bold
 
   &--lg {
     padding-right: 2em;
