@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/site/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/site/" rel="alternate" type="text/html" /><updated>2019-03-18T10:31:41+00:00</updated><id>http://localhost:4000/site/feed.xml</id><title type="html">Marcello Victorino</title><subtitle>Personal blog about data science to share the knowledge.</subtitle><author><name>Marcello Victorino</name></author><entry><title type="html">A/B Testing Summary</title><link href="http://localhost:4000/site/ABtesting/" rel="alternate" type="text/html" title="A/B Testing Summary" /><published>2019-03-16T00:00:00+00:00</published><updated>2019-03-16T00:00:00+00:00</updated><id>http://localhost:4000/site/ABtesting</id><content type="html" xml:base="http://localhost:4000/site/ABtesting/">&lt;h1 id=&quot;testing-markdown-for-article-writing&quot;&gt;Testing MarkDown for article writing.&lt;/h1&gt;
+
+&lt;p&gt;Adding an image example:
+&lt;img src=&quot;http://localhost:4000/site/images/logo_victorino3_77x88.png&quot; alt=&quot;logo_image&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Inline code: &lt;code class=&quot;highlighter-rouge&quot;&gt;np.random.normal()&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Math example: &lt;script type=&quot;math/tex&quot;&gt;H_0: \mu = 0&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;header2&quot;&gt;Header2&lt;/h2&gt;
+
+&lt;h3 id=&quot;header-3&quot;&gt;Header 3&lt;/h3&gt;
+
+&lt;h4 id=&quot;header-4&quot;&gt;Header 4&lt;/h4&gt;</content><author><name>Marcello Victorino</name></author><category term="Data Analysis" /><summary type="html">Summary of A/B testing with an application example, handling for multiple tests correction using Holm-Bonferroni.</summary></entry></feed>
