@@ -8,7 +8,6 @@ tags:
   - Test
 date: 2019-03-16T00:00:00.000Z
 thumbnail: /images/ab-testing.jpg
-rating: 4
 ---
 
 
