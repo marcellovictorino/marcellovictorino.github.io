@@ -7,6 +7,8 @@ tags: [Data Analysis]
 categories: [Project]
 date: 2019-02-16T12:38:23.535Z
 thumbnail: /images/global-warming.jpg
+toc: true
+
 # classes: wide
 ---
 
