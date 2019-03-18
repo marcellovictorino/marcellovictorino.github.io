@@ -18,14 +18,14 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Marcello Victorino">
 <meta property="og:title" content="A/B Testing Summary">
-<meta property="og:url" content="http://localhost:4000/_site/ABtesting/">
+<meta property="og:url" content="http://localhost:4000/ABtesting/">
 
 
   <meta property="og:description" content="Summary of A/B testing with an application example, handling for multiple tests correction using Holm-Bonferroni.">
 
 
 
-  <meta property="og:image" content="http://localhost:4000/_site/images/nasa-sky.jpg">
+  <meta property="og:image" content="http://localhost:4000/images/nasa-sky.jpg">
 
 
 
@@ -42,7 +42,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/_site/ABtesting/">
+<link rel="canonical" href="http://localhost:4000/ABtesting/">
 
 
 
@@ -55,7 +55,7 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Marcello Victorino",
-      "url": "http://localhost:4000/_site",
+      "url": "http://localhost:4000",
       "sameAs": null
     }
   </script>
@@ -69,7 +69,7 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/_site/feed.xml" type="application/atom+xml" rel="alternate" title="Marcello Victorino Feed">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Marcello Victorino Feed">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -79,7 +79,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/_site/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/main.css">
 
 <!--[if IE ]>
   <style>
@@ -104,6 +104,7 @@
 
 <!-- end custom head snippets -->
 
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
 
   <body class="layout--single">
@@ -119,15 +120,15 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/_site/"><img src="/_site/images/logo_victorino3_77x88.png" alt=""></a>
+          <a class="site-logo" href="/"><img src="/images/logo_victorino3_77x88.png" alt=""></a>
         
-        <a class="site-title" href="/_site/">Marcello Victorino</a>
+        <a class="site-title" href="/">Marcello Victorino</a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/_site/about/" >About</a>
+              <a href="/about/" >About</a>
             </li><li class="masthead__menu-item">
-              <a href="/_site/posts-by-tags/" >Posts by Tags</a>
+              <a href="/posts-by-tags/" >Posts by Tags</a>
             </li><li class="masthead__menu-item">
-              <a href="/_site/portfolio/" >Portfolio</a>
+              <a href="/portfolio/" >Portfolio</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
@@ -166,7 +167,7 @@
   style=" "
 >
   
-    <img src="/_site/images/nasa-sky.jpg" alt="A/B Testing Summary" class="page__hero-image">
+    <img src="/images/nasa-sky.jpg" alt="A/B Testing Summary" class="page__hero-image">
   
   
 </div>
@@ -188,7 +189,7 @@
       
 
       
-        <img src="/_site/images/profile_picture.jpg" alt="Marcello Victorino" itemprop="image">
+        <img src="/images/profile_picture.jpg" alt="Marcello Victorino" itemprop="image">
       
     </div>
   
@@ -345,7 +346,7 @@
         <h1 id="testing-markdown-for-article-writing">Testing MarkDown for article writing.</h1>
 
 <p>Adding an image example:
-<img src="http://localhost:4000/_site/images/logo_victorino3_77x88.png" alt="logo_image" /></p>
+<img src="http://localhost:4000/images/logo_victorino3_77x88.png" alt="logo_image" /></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
@@ -380,7 +381,7 @@
     
       
       
-      <a href="/_site/tags/#data-analysis" class="page__taxonomy-item" rel="tag">Data Analysis</a>
+      <a href="/tags/#data-analysis" class="page__taxonomy-item" rel="tag">Data Analysis</a>
     
     </span>
   </p>
@@ -398,11 +399,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=A%2FB+Testing+Summary%20http%3A%2F%2Flocalhost%3A4000%2F_site%2FABtesting%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=A%2FB+Testing+Summary%20http%3A%2F%2Flocalhost%3A4000%2FABtesting%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F_site%2FABtesting%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FABtesting%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2F_site%2FABtesting%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FABtesting%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
@@ -464,7 +465,7 @@
       
     
 
-    <li><a href="/_site/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
@@ -474,15 +475,15 @@
     </div>
 
     
-  <script src="/_site/assets/js/main.min.js"></script>
+  <script src="/assets/js/main.min.js"></script>
   <script data-search-pseudo-elements defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
 
 
 
 
-<script src="/_site/assets/js/lunr/lunr.min.js"></script>
-<script src="/_site/assets/js/lunr/lunr-store.js"></script>
-<script src="/_site/assets/js/lunr/lunr-en.js"></script>
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
 
 
 
