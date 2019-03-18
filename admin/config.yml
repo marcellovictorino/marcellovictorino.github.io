@@ -15,8 +15,8 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "single"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Abstract", name: "excerpt", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "list", default: "Data Analysis"}
-      - {label: "Categories", name: "categories", widget: "list", default: "Post"}
+      - {label: "Tags", name: "tags", widget: "list", field: {label: "Tag", name: "tag_name", widget: "string", default: "Data Analysis"}}
+      - {label: "Categories", name: "categories", widget: "list", field: {label: "Tag", name: "tag_name", widget: "string", default: "Post"}}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
