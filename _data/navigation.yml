@@ -3,7 +3,7 @@ main:
   - title: "About"
     url: /about/
   - title: "Posts by Tags"
-    url: /projects/
+    url: /posts-by-tags/
   - title: "Portfolio"
     url: /portfolio/
   # - title: "Sample Collections"
