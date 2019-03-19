@@ -47,11 +47,14 @@ Similar to both approaches, you will need to:
 
 
 
+
+
+---
 ## Technologies Used
-+ Ruby: technology behind Jekyll. Uses "gems", similar to packages/libraries
-+ Jekyll: framework for generating static website based on a set project structure
-    - Minimal Mistakes: minimalistic theme built on top of Jekyll (thanks, Michael Rose!!!)
-+ Netlify: for Content Manager (and hosting)
-+ Markdown: use your favorite Markdown editor for writing content
-+ Github: repository to keep all the website files
-    - Github Pages: auto deploy your static website, giving the correct settings (covered in this post)
++ **Ruby**: technology behind Jekyll. Uses "gems", similar to packages/libraries
++ **Jekyll**: framework for generating static website based on a set project structure
+    - *Minimal Mistakes*: minimalist theme built on top of Jekyll (thanks, Michael Rose!!!)
++ **Netlify**: for Content Manager (and hosting)
++ **Markdown**: use your favorite Markdown editor for writing content
++ **Github**: repository to keep all the website files
+    - **Github Pages**: auto deploy your static website, giving the correct settings (covered in this post)

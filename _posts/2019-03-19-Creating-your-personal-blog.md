@@ -15,7 +15,7 @@ Two-parts tutorial on how to create your own personal <u>responsive</u> website 
 LINKS
 [Minimal Mistakes Documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 [Font Awesome (free icons)](https://fontawesome.com/icons?d=gallery&s=solid&m=free)
-[Awesome Youtube Tutorial (by Data Optimal)](https://www.youtube.com/watch?v=qWrcgHwSG8M)
+[Awesome YouTube Tutorial (by Data Optimal)](https://www.youtube.com/watch?v=qWrcgHwSG8M)
 [Repository: Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
 [Ruby Installer (go for the most stable DevKit version for Windows)](https://rubyinstaller.org/downloads/)
 [Jekyll Documentation](https://jekyllrb.com/docs/)
@@ -29,15 +29,15 @@ But it also helps your future self, in case you ever need to tackle a similar ch
 
 Well, creating this website was one of those things. After an exciting weekend researching about the topic, getting inspiration from other people's website, and watching/reading some awesome tutorials... I decided to write up my own take on how to get this done. Especially for Windows users!
 
-This tutorial will cover two approaches to acomplish the same goal. Feel free to pick one and follow along:
+This tutorial will cover two approaches to accomplish the same goal. Feel free to pick one and follow along:
 1. **Simplistic**: doesn't require any installation. Just copy-and-paste, following along this tutorial instructions. If you are not interested in understanding what is going on and just wants your own personal blog right away.
-2. **Developer Mode**: a little bit painfull, requiring to install ruby and all necessary gems (packages) in your own local machine. But allows for easy deploy on localhost, so you can preview your changes, testing them multiple times until happy with the results. Then you would push the changes so Github performs its magic and auto deploy your site.
+2. **Developer Mode**: a little bit painful, requiring to install ruby and all necessary gems (packages) in your own local machine. But allows for easy deploy on localhost, so you can preview your changes, testing them multiple times until happy with the results. Then you would push the changes so Github performs its magic and auto deploy your site.
 
-This tutorial builds on top of this [awesome Youtube Tutorial (by Data Optimal)](https://www.youtube.com/watch?v=qWrcgHwSG8M). Feel free to use both resources!
+This tutorial builds on top of this [awesome YouTube Tutorial (by Data Optimal)](https://www.youtube.com/watch?v=qWrcgHwSG8M). Feel free to use both resources!
 
 ## Basic Steps
 Similar to both approaches, you will need to:
-+ 1.A) Have Git installed in you localmachine
++ 1.A) Have Git installed in you local machine
 + 1.B) Create your own Github repository
 + 1.C) Copy all files from the Minimal Mistakes Theme repository
 + 1.D) Make some changes and keep only necessary files
@@ -75,7 +75,7 @@ Go to the [Minimal Mistakes Repository](https://github.com/mmistakes/minimal-mis
 Extract everything into your project folder. <br>
 
 ### 1.D) Clean the House
-Let's remove the unecessary files and folders. Here is a list of everything to delete (by the time this post was written. Might change in the future):
+Let's remove the unnecessary files and folders. Here is a list of everything to delete (by the time this post was written. Might change in the future):
 + **Folders**: **.github**; docs; test
 + **Files**: .editorconfig; .gitattribute; .travis.yml; CHANGELOG.md; screenshot-layouts.png; screenshot.png
 
@@ -133,13 +133,13 @@ header:
 classes: wide
 ---
 
-Enter your bio description here. Who you are, your interests... afterall, this is your personal blog. Just keep it short: abround 3 paragraphs should be enough.
+Enter your bio description here. Who you are, your interests... after all, this is your personal blog. Just keep it short: around 3 paragraphs should be enough.
 ```
 
 The first section, separated by the `---`, represent the metadata. There are many keywords with special functionality here. Feel free to read the [Minimal Mistakes Documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) for further options.
 
 The second section, after the closing `---`, is the page content. This is very similar to the post structure. You can add Markdown (or html tags) for the content.
->Obs: the **permalink** defined here is where the page will "live" in your site.
+>Note: the **permalink** defined here is where the page will "live" in your site.
 
 #### Adding Page to the Navigation Bar
 In order to be able to navigate to your new page, you must add the url via a link... or place it in the Navigation Bar - which is way cooler!
@@ -172,10 +172,10 @@ Consectetur adipiscing elit, sed do **eiusmod tempor** incididunt ut labore et d
 
 > Viverra justo nec ultrices dui sapien eget mi. Pellentesque diam volutpat commodo sed. Viverra nam libero justo laoreet sit amet cursus sit. In fermentum et sollicitudin ac.
 ```
-The snippet above contain some examples for the metadata (dont worry about tags/categories for now) and the content markdown. You can find more in the [Markdown Documentation](https://www.markdownguide.org/cheat-sheet/) page.
+The snippet above contain some examples for the metadata (don't worry about tags/categories for now) and the content markdown. You can find more in the [Markdown Documentation](https://www.markdownguide.org/cheat-sheet/) page.
 
 ### 2.D) Customize your Landing Page
-Just so your website starts to look flashier, let's also add some bonus costumization to your landing page. <br>
+Just so your website starts to look flashier, let's also add some bonus customization to your landing page. <br>
 Edit the file `index.html` found in you project folder:
 ```
 ---
@@ -192,15 +192,17 @@ classes: wide
 As you can see, the **layout** is specific for the homepage. We are also adding a nice header image, to make your site look sharp. I recommend using images that are banner-like (small, but wide) and with 1280 px resolution.
 
 ### 2.E) Deploy it!
-Now that you have made some significant changes in your project structure, it is time to `stage, commit, push` them to your repository. If everything works like it hsould, Github Pages will auto deploy your personal website.<br>
+Now that you have made some significant changes in your project structure, it is time to `stage, commit, push` them to your repository. If everything works like it should, Github Pages will auto deploy your personal website.<br>
 Head to `your-github-username.github.io` to see what it looks like!
+ 
+<hr>
+So how does it look? Stay tuned for the more advanced Part 2 of this tutorial, where you will be able to add more customization and auto generate page content using theme logic.
 
+As always, constructive feedback is always appreciated. Feel free to leave any comments/suggestions.
 
 ## Technologies Used
-+ Ruby: technology behind Jekyll. Uses "gems", similar to packages/libraries
-+ Jekyll: framework for generating static website based on a set project structure
-    - Minimal Mistakes: minimalistic theme built on top of Jekyll (thanks, Michael Rose!!!)
-+ Netlify: for Content Manager (and hosting)
-+ Markdown: use your favorite Markdown editor for writing content
-+ Github: repository to keep all the website files
-    - Github Pages: auto deploy your static website, giving the correct settings (covered in this post)
++ **Jekyll**: framework for generating static website based on a set project structure
+    - *Minimal Mistakes*: minimalist theme built on top of Jekyll (thanks, Michael Rose!!!)
++ **Markdown**: use your favorite Markdown editor for writing content
++ **Github**: repository to keep all the website files
+    - **Github Pages**: auto deploy your static website, giving the correct settings (covered in this post)
