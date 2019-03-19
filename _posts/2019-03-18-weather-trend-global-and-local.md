@@ -8,7 +8,6 @@ categories: [Project]
 date: 2019-02-16T12:38:23.535Z
 thumbnail: /images/global-warming.jpg
 toc: true
-
 classes: wide
 ---
 
@@ -18,7 +17,7 @@ This project analyzes the Weather dataset, exploring and identifying patterns fo
 ## Introduction
 This project was completed as part of the course requirements of Udacity's [Data Analyst Nanodegree](https://www.udacity.com/course/data-analyst-nanodegree--nd002) certification.
 
-The complete code and analysis rationale can be found in the [jupyter notebook](https://github.com/marcellovictorino/DAND-Project0/blob/master/Project%200%20-%20Weather%20Trend.ipynb).
+The complete code and analysis rationale can be found in the [Jupyter notebook](https://github.com/marcellovictorino/DAND-Project0/blob/master/Project%200%20-%20Weather%20Trend.ipynb).
 
 >**Limitation**: the dataset analyzed is simple. It only contains data on the yearly average temperature, in Celsius. Further weather-related data was not made available, such as: humidity, wind, and precipitation. 
 

@@ -156,9 +156,11 @@ pre {
   font-family: $monospace;
 }
 
-code {
+pre {
   color: $code-block-font-color !important;
-  font-size: $code-block-font-size !important;
+  background-color: $code-block-background-color !important;
+  border-radius: $code-block-border-radius !important;
+  padding: $code-block-padding !important;
 }
 
 pre {
