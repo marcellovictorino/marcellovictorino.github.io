@@ -59,6 +59,15 @@ $navbar-background-color: #343a40 !default; // custom navbar background color
 $background-color: rgb(255, 255, 255) !default; // navbar background color
 $code-background-color: #fafafa !default;
 $code-background-color-dark: $light-gray !default;
+
+$code-inline-font-color: #fff; // custom
+$code-inline-font-weight: bold;
+$code-inline-font-size: 0.8em;
+$code-inline-background-color: #ff4db7 ; // custom
+
+$code-block-font-color: #fff;
+$code-block-font-size: 1em;
+
 $text-color: $dark-gray !default;
 $muted-text-color: mix(#fff, $text-color, 35%) !default;
 $border-color: $lighter-gray !default;
