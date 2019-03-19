@@ -12,13 +12,6 @@ classes: wide # use the reserved right-sidebar for content
 ## Abstract
 Two-parts tutorial on how to create your own personal <u>responsive</u> website (blog) using a <u>static site generator</u>. This post covers *Jekyll* (site generator), *Minimal Mistakes* (amazing Jekyll Theme), *Github Pages* (free hosting) and *Netlify* (Content Manager). Two approaches are covered: 1) **Simplistic**, no installation required; or 2) **Developer Mode**, allowing to preview changes by deploying the website on the localhost. Both provide amazing results, thanks to how the listed technologies work together like a charm! Special thanks to Michael Rose, developer behind the awesome open source Jekyll theme used in this tutorial (and in this website!).
 
-LINKS
-[Minimal Mistakes Documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
-[Font Awesome (free icons)](https://fontawesome.com/icons?d=gallery&s=solid&m=free)
-[Awesome YouTube Tutorial (by Data Optimal)](https://www.youtube.com/watch?v=qWrcgHwSG8M)
-[Repository: Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
-[Ruby Installer (go for the most stable DevKit version for Windows)](https://rubyinstaller.org/downloads/)
-[Jekyll Documentation](https://jekyllrb.com/docs/)
 
 ## Introduction
 >"Teach someone and you will learn twice!" (proverb)

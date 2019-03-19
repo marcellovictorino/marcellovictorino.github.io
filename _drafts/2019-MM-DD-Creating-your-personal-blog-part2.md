@@ -15,10 +15,11 @@ Two-parts tutorial on how to create your own personal <u>responsive</u> website 
 LINKS
 [Minimal Mistakes Documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 [Font Awesome (free icons)](https://fontawesome.com/icons?d=gallery&s=solid&m=free)
-[Awesome Youtube Tutorial (by Data Optimal)](https://www.youtube.com/watch?v=qWrcgHwSG8M)
+[Awesome YouTube Tutorial (by Data Optimal)](https://www.youtube.com/watch?v=qWrcgHwSG8M)
 [Repository: Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
 [Ruby Installer (go for the most stable DevKit version for Windows)](https://rubyinstaller.org/downloads/)
 [Jekyll Documentation](https://jekyllrb.com/docs/)
+
 
 ## Introduction
 This is Part 2 of the Tutorial on "How to Create your own personal website". It builds on top of the previous one, showing more advanced functionalities for those willing to dig deeper into the code.
