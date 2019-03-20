@@ -39,3 +39,8 @@
     <script src="{{ script_path }}"></script>
   {% endfor %}
 {% endif %}
+
+<!-- Calls the code for google analytics -->
+{% if site.analytics.provider %}
+  {% include google-analytics.html %}
+{% endif %}
