@@ -101,9 +101,11 @@ layout: default
     </div>
   {% endif %}
 
+  {% comment %} <!-- Show Disqus Comments, underneath "You might also enjoy...", but keeping same width as content --> {% endcomment %}
   {% if site.comments.provider %}
-    <script>console.log('Hello test');</script>
-        {% include disqus_comments.html %}
-    {% endif %}
+  <div class="page__related">
+    {% include disqus_comments.html %}
+  </div>
+  {% endif %}
     
 </div>
