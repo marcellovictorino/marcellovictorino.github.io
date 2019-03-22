@@ -7,7 +7,6 @@ categories: [Post]
 date: 2019-03-16 00:00:00 +0000
 thumbnail: "/images/ab-testing.jpg"
 
-
 ---
 ## Difficulties to bear in mind
 
