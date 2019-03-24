@@ -298,6 +298,7 @@ defaults:
       # toc_label: "On this post..."
       # toc_icon: "file-alt"
       mathjax: "true"
+      classes: wide
 
   # _pages
   - scope:
