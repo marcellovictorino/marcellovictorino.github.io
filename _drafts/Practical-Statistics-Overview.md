@@ -64,6 +64,63 @@ print(f'Confidence Interval: [{lower:.3f}, {upper:.3f}]')
 In our example, we can interpret the results as:
 >Since the Confidence Interval does not contain (overlap) zero, there is evidence that suggests there is indeed a difference in the population height of those sub-groups. We can say, with 95% statistical confidence, on average, coffee drinkers are taller.
 
++ Bootstraping: 
+    - Aims at estimating a parameter of the population (specifically, mean and proportion).
+    - Do not have the ability to infer/make decision on an individual level (use ML models instead)
++ Larger Sample Size: Reduce $$CI_{width}$$
++ Increasing Confidence Level (i.e. 95% -> 99%): Increase $$CI_{width}$$
++ Margin of Error: $$CI_{width} / 2$$
++ If the CI does not contain 0, evidence suggests statistically significance. 
++ The farther away from zero, the more relevant. 
++ But always bear in mind the **Practical Significance**. 
+
+
+## Hypothesis Test
+Help making better and data-informed decisions.
+1. Translate the research question into 2 clear and competing hypothesis: $$H_0:$$ **Null** and $$H_1:$$ **Alternative**
+2. Collect data (Experiment Design: ideal sample size, how long to conduct, consistency among control and experiment groups *etc.*) to evaluate both hypothesis.
+
++ We assume the Null, $$H_0$$, to be true before even collecting the data (prior belief)
++ $$H_0$$ always holds some sign of equality ($$\leq$$  $$=$$  $$\geq$$)
++ The Alternative, $$H_1$$, is what we would like to prove to be true
++ $$H_1$$ holds the opposite sign ($$>$$  $$\neq$$  $$<$$)
+
+### Setting up
+It is usually easier to start defining the Alternative Hypothesis and what sign it should hold (Is it bigger? Is it different? Is it smaller?). Ergo, the Null assumes the opposite sign.
+
+### One vs Two-sided Tails
+
+
+
+
+### Interpreting the p-value
+
+
+### Danger of Multiple Tests
+There is **always** the chance of randomly finding data supporting the Alternative. Even if the p-value is quite small!
+
+For the usually accepted Significance Level of 5%, it basically means that if we perform the same experiment 20 times, we expect that one of them will result in a False Positive... and we are okay with it!
+
+Whenever replicating the same experiment, or conducting multiple tests (i.e. A/B testing using more than one metric), we need to watch for Type I error compound!
+
+Enter the Correction Methods for multiple tests:
++ **Bonferroni**: $$\alpha^* = \frac{\alpha}{n}$$
+    - The Type I error rate should be the desired $$\alpha$$, divided by the number of tests, $$n$$.
+    - Example: if replicating the same experiment 20 times, each experiment correct $$alpha$$ would be $$0.05 / 20$$ = 0.0025 (that means, 0.25% instead of the initial 5%)
+    - As illustrated in the example above, this method is **very conservative**. While it does minimize the rate of False Positives (making the findings more meaningful), it also fails to recognize actual significant differences. Hence, increasing Type II error (False Negatives), leading to a low test **Power**.
+
++ **Holm-Bonferroni**: recommended approach
+    - Less conservative, this adaptation from the Bonferroni method presents a better trade-off between Type I and II errors.
+    - It consist of a simple but tricky to explain algorithm. See [this Wikipedia] for detailed explanation.
+    - I personally created a Python function to implement this method. It receives a list of the identification of the test/metric/experiment, and another with the respective p-value of each individual test/experiment. The output is a list of all tests that have evidence to Reject the Null; and another one with the remaining, where we Fail to Reject the Null.
+    - See [this specific post](TODO:add_link) for detailed code and example.
+
+### Caution: Size matters
+With a large sample size, hypothesis testing leads to even the smallest differences being statistically significant. But not necessarily practical significance.
+It is important to always take into consideration extraneous factors to guide the decision making (cost, budget/time constraint *etc.*)
+
+
+
 ### Decision Errors (False Positives & False Negatives)
 Whenever making decisions without knowing the correct answer, we can face 4 different outcomes. Enters the **Confusion Matrix**:
 
@@ -86,33 +143,3 @@ Common values used in practice are:
 Differentiating between Type I (False Positive) and Type II (False Negative) errors can be confusing... until you see this image:
 
 {% include figure image_path="images\Statistics-Overview\decision-errors2.jpg" caption="Decision Errors explained" alt=caption %}
-
-
-
-## Hypothesis Test
-Help making better and data-informed decisions.
-1. Translate the research question into 2 clear and competing hypothesis: $$H_0:$$ **Null** and $$H_1:$$ **Alternative**
-2. Collect data (Experiment Design: ideal sample size, how long to conduct, consistency among control and experiment groups *etc.*) to evaluate both hypothesis.
-
-+ We assume the Null, $$H_0$$, to be true before even collecting the data (prior belief)
-+ $H_0$ always holds some sign of equality ($$\leq = \geq$$)
-+ The Alternative, $$H_1$$, is what we would like to prove to be true
-+ $$H_1$$ holds the opposite sign ($$> \neq < $$)
-
-### Setting up
-It is usually easier to start defining the Alternative Hypothesis and what sign it should hold (Is it bigger? Is it different? Is it smaller?). Ergo, the Null assumes the opposite sign.
-
-### One vs Two-sided Tails
-
-
-
-
-### Interpreting the p-value
-
-
-### Danger of Multiple Tests
-
-
-### Caution: Size matters
-With a large sample size, hypothesis testing leads to even the smallest differences being statistically significant. But not necessarily practical significance.
-It is important to always take into consideration extraneous factors to guide the decision making (cost, budget/time constraint *etc.*)
