@@ -9,7 +9,7 @@ date: 2019-03-26 00:00:00 +0000
 This post will cover the fundamental concepts of the Law of Large Numbers and the Central Limit Theory, both of which are essential for practical statistical inference (Confidence Interval and Hypothesis Testing - to be covered in another post).
 Importing necessary libraries and loading the example dataset. 
 
-The full code can be found in [this notebook](https://github.com/marcellovictorino/Practical-Statistics/blob/master/0%20Inference%20-%20Basic%20Concepts/Inference%20-%20Basic%20Concepts.ipynb).
+The full code can be found in [this notebook](https://github.com/marcellovictorino/Practical-Statistics/blob/master/0_%20Inference%20-%20Basic%20Concepts/Inference%20-%20Basic%20Concepts.ipynb).
 
 The example dataset contains the average height (in centimeters) of undergrad students, as well as categorical information about age and if they drink coffee.
 
