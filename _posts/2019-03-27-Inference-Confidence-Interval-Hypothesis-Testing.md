@@ -3,7 +3,7 @@ title: Statistical Inference - Confidence Interval & Hypothesis Testing
 excerpt: Brief review of two forms of Statistical Inference with simulation, Confidence Interval and Hypothesis Testing - with applied examples. Covering how to 1) set up hypothesis; 2) one and two-tailed test; 3) interpreting the p-value; 4) danger of multiple tests and correction methods; 5) pitfalls of hypothesis testing; and 6) decision errors and confusion matrix.
 tags: [Data Analysis]
 categories: [Post]
-date: 2019-03-27 00:00:00 +0000
+date: 2019-03-28 00:00:00 +0000
 ---
 
 # Introduction
@@ -147,7 +147,7 @@ print(f'Original Sample average height difference: {actual_avg_height_difference
 Original Sample average height difference: 3.390 cm
     
 
-Checking the difference between the average height of both groups, we can see the mean of our Sampling Distribution (3.970 cm) closely approximates the actual  average height difference observed in the original sample (3.977 cm).
+Checking the difference between the average height of both groups, we can see the mean of our Sampling Distribution (3.394 cm) closely approximates the actual  average height difference observed in the original sample (3.390 cm).
 
 <br>
 ## Calculating Lower and Upper Bounds
@@ -186,16 +186,20 @@ Margin of error: 2.34 cm
 ## Interpretation
 Since the Confidence Interval does not contain (overlap) zero, there is evidence that suggests there is indeed a difference in the population height of those sub-groups. As a matter of fact, there is a substantial difference since the lower bound is far from zero.
 
->$$\implies$$ We have evidence to support that, on average, coffee drinkers are taller than those who do not drink coffee. We can infer, with 95% confidence, the average height difference is 4 cm with a margin of error of 2 cm.
+>$$\implies$$ We have evidence to support that, on average, coffee drinkers are taller than those who do not drink coffee. We can infer, with 95% confidence, the average height difference is 3.4 cm with a margin of error of 2.3 cm.
 
 + $$\uparrow$$ bigger sample size $$\therefore$$ $$\downarrow$$ narrower Confidence Interval width
 + **Margin of Error**: Confidence Interval width / 2
+
 
 <br>
 # Hypothesis Testing
 Another form of Inferential Statistics, helps to make better and data-informed decisions. This technique is vastly implemented in research, academia, and A/B testing.
 
-1. Translate research question into 2 clearly defined and competing hypothesis: $$H_0:$$ **Null** and $$H_1:$$ **Alternative**
+1. Translate research question into 2 clearly defined and competing hypothesis: 
++ $$H_0:$$ **Null**  
++ $$H_1:$$ **Alternative**
+
 2. Collect data (Experiment Design: ideal sample size, how long to conduct, consistency among control and experiment groups *etc.*) to evaluate both hypothesis.
 
 Also:
@@ -221,8 +225,8 @@ Then, the Null assumes the opposite sign (with some sort of equality).
 + **Example 2**: The average height of coffee drinkers is different than non-coffee drinkers
     - Measurement: average height, $$\mu$$
 <div text-align:center>
-  $$H_0: Person = Innocent $$
-  $$H_1: Person \neq Innocent $$
+  $$H_0: \mu_{Coffee} = \mu_{NonCoffee} $$
+  $$H_1: \mu_{Coffee} \neq \mu_{NonCoffee} $$
 </div>
   
  
@@ -245,7 +249,7 @@ There are two alternative ways of computing the statistical significance of a pa
 
 
 + **Two-tailed test**: Used when we are interested in just testing if the Alternative is different
-<br>$$H_1 \neq 0$$
+<div text-align:center>$$H_1 \neq 0$$</div>
 
 {% include figure image_path="images\Inference-CI-Hypothesis-Testing\Significance Test.png"
 caption="Example of each possible Significance Test"
@@ -255,30 +259,31 @@ In the image above we see an example of the result for each possible setup of th
 
 Where:
 
-+ The Bell curve represents the distribution of all possible values, assuming the **Null** Hypotheses to be true/correct. The blue curve is drawn from the Null.
++ The Bell curve represents the distribution of all possible values, assuming the **Null** Hypotheses to be true/correct. The blue curve is drawn from the Null, with the mean value as <u>the closest value to the Null</u> (in this case, 0).
 
-+ The hashed area in red is the **p-value**, representing all values that actually support the **Alternative** Hypotheses ("equal or more extreme than").
++ The hashed area in red is the **p-value**, representing all values that actually support the **Alternative** Hypotheses ("equal or more extreme than"). Note how the hashed area `does not necessarily` starts from <u>the closest value to the Null</u> (in this case, 0).
 
 + The graphic seen above is the famous Probability Density Function (PDF). The area under this curve represents the probability, which cumulative sum varies between 0 and 1.
 
-Assuming the Null to be true/correct, we draw the blue bell-shaped curve. P-value is the area under this curve (probability) for values that are equal or more extreme than stated by the Alternative.
+Assuming the Null to be true/correct, we draw the blue bell-shaped curve. P-value is the area under this curve (probability) for values that are equal or more extreme than data supporting the Alternative.
 
 
 >$$\implies$$ **p-value**: probability of seeing data that actually supports the Alternative, assuming the Null to be true/correct.
 
 <br>
 ## Interpreting the p-value
-This is a [very hot topic](https://www.nature.com/articles/d41586-019-00857-9) involving hyped claims and the dismissal of possibly crucial effects, much due to the fact of using "significant results only" ($$p-value < \alpha$$) as a publishing criteria for peer-reviewed journals.
+This is a [very hot topic](https://www.nature.com/articles/d41586-019-00857-9), involving hyped claims and the dismissal of possibly crucial effects, much due to the fact of using "significant results only" ($$p-value < \alpha$$) as a publishing criteria on peer-reviewed journals.
 
 We never "accept" a Hypothesis, since there is always the chance of it being wrong - even if very small.
 
-Instead, we either **Reject** or **Fail to Reject** it:
-+ $$\downarrow$$ **Small p-value**: suggests the Null is not true. Rather, the statistics is likely to have come from a different distribution.
-+ $$\uparrow$$ **Big p-value**: no evidence to reject the Null
+Instead, we either **Reject** or **Fail to Reject** the Null:
++ $$\downarrow$$ **Small p-value**: we Reject the Null. Rather, the statistics is likely to have come from a different distribution.
++ $$\uparrow$$ **Big p-value**: we Fail to Reject the Null. It is indeed likely the observed statistic came from the distribution assuming the Null to be true.
 
 But what is *small* and *big* ?
 <br>
-The **p-value** is compared against $$\alpha$$, the rate of False Positives we are willing to accept.
+The **p-value** is compared against $$\alpha$$ (alpha), the rate of **False Positives** we are willing to accept.
+> **Note**: the concept of $$\alpha$$ and **False Positives** will be further explained in the Decision Errors section.
 
 <br>
 ## Danger of Multiple Tests
@@ -292,27 +297,36 @@ Enter the Correction Methods for multiple tests:
 + **Bonferroni**: $$\alpha^* = \frac{\alpha}{n}$$
     - The Type I error rate should be the desired $$\alpha$$, divided by the number of tests, $$n$$.
     - Example: if replicating the same experiment 20 times, each experiment corrected $$alpha^*$$ would be $$\frac{0.05}{20}$$ = 0.0025 (that means, 0.25% instead of the initial 5%).
-    - As illustrated in the example above, this method is **very conservative**. While it does minimize the rate of False Positives (making the findings more meaningful), it also fails to recognize actual significant differences. Hence, increasing Type II error (False Negatives), leading to a test with low **Power**.
+    - As illustrated in the example above, this method is **very conservative**. While it does minimize the rate of False Positives (making the findings more meaningful), it also fails to recognize actual significant differences. Which increases the amount of Type II error (False Negatives), leading to a test with low **Power**.
 
 
 + **Holm-Bonferroni**: recommended approach
     - Less conservative, this adaptation from the Bonferroni method presents a better trade-off between Type I and II errors.
     - It consist of a simple but tricky to explain algorithm. See [this Wikipedia](https://en.wikipedia.org/wiki/Holm%E2%80%93Bonferroni_method) for detailed explanation.
-    - I personally created a Python function to implement this method. It receives a list of the identification of the test/metric/experiment, and another with the respective p-value of each individual test/experiment. The output is a list of all tests that have evidence to Reject the Null; and another one with the remaining, where we Fail to Reject the Null.
+    - I personally created a Python function to implement this method. It receives a list of the identification of the test/metric/experiment, and another with the respective p-value of each individual test/experiment. The output is a list of all tests that have evidence to Reject the Null; and another one with the remaining, where we Fail to Reject the Null. *The code can be found in the A/B Testing post.*
 
 <br>
 ## Pitfalls
 1. When interpreting statistical significance results, we assume the **sample** is truly representative of the **Population** of interest. 
-    - It is important to watch out for **Response Bias**, when only a specific segment of the population is captured in the sample
+    - It is important to watch out for **Response Bias**, when only a specific segment of the population is captured in the sample.
     - Example: people against a bill (or project) are more likely to attend a Public Hearing to manifest their opinion than those in favor.
 <br><br>
 2. With large enough sample size, hypothesis testing leads to even the smallest differences being considered as statistically significant.
-    - Hence, it is important to be aware of Practical Significance as well, considering extraneous factors such as: cost, time *etc.*
-    - Example: a small improvement in the manufacturing process - even if statistically significant - might not be worth the cost, time, and effort to implement it.
+    - Hence, it is important to be aware of **Practical Significance** as well, taking into consideration extraneous factors such as: cost, time *etc.*
+    - Example: a small improvement in the manufacturing process - even if statistically significant - might not be worth the cost, time, and/or effort to implement it.
 
 <br>
-## Decision Errors (False Positive & False Negatives)
-Whenever making decisions without knowing the correct answer, we can face 4 different outcomes. Enters the **Confusion Matrix**:
+## Decision Errors (False Positives & False Negatives)
+Whenever making decisions without knowing the correct answer, we can face 4 different outcomes:
++ **Correct**:
+  - True Positives
+  - True Negatives
+
++ **Wrong**:
+  - False Positives
+  - False Negatives
+
+Enters the **Confusion Matrix**:
 
 {% include figure image_path="images\Inference-CI-Hypothesis-Testing\confusion-matrix.PNG"
 caption="The famous Confusion Matrix"
@@ -328,13 +342,14 @@ alt="The famous Confusion Matrix" %}
     - Probability of committing a Type II error is represented by $$\beta$$
     - Not committing it ($$1 - \beta$$) is known as the **Power** of the test
 
+<br>
 Common values used in practice are:
 + **Significance Level** ($$\alpha$$) = 5%
 + **Test Power** ($$1 - \beta$$)= 80%
 
 Differentiating between Type I (False Positive) and Type II (False Negative) errors can be confusing... until you see this image:
 {% include figure image_path="images\Inference-CI-Hypothesis-Testing\decision-errors2.jpg"
-caption="Illustration of the difference between Type 1 and Type 2 errors."
+caption="Illustration of the difference between Type 1 (False Positive) and Type 2 (False Negative) errors."
 alt="Illustration of the difference between Type 1 and Type 2 errors" %}
 
 <br>
@@ -469,7 +484,7 @@ alt="Shaded area (p-value): Alternative greater than" %}
 > **Interpretation:**
 With such a high p-value (0.94), we **Fail to Reject** the Null Hypotheses. Suggesting the average height of coffee drinkers is equal or lesser than 175 cm.
 
-It looks like the statistic of interest (sample mean) does come from a Normal Distribution centered around 175 and with the Standard Deviation from the Sampling Distribution.
+It looks like the statistic of interest (sample mean) does come from a Normal Distribution centered around 175 (closest value to the Null) and with the Standard Deviation from the Sampling Distribution.
 
 <br>
 ## Example 2
@@ -519,8 +534,8 @@ print(f'Sample Mean: {sample_mean:.2f} cm')
 print(f'Null Mean: {null_mean:.2f} cm')
 ```
 
-Sample Mean: 173.02 cm
-Null Mean: 175.00 cm
+Sample Mean: 173.02 cm <br>
+Null Mean: 175.00 cm (closest value to the Null)
     
 
 Since the Sample Mean is smaller than the Null:
@@ -551,3 +566,8 @@ alt="Shaded area (p-value): Alternative different than" %}
 Since the p-value (0.001) is lesser than $$\alpha$$ (0.05), we have evidence to **Reject** the Null Hypotheses, suggesting - with 95% of confidence - that the average height of coffee drinkers is indeed **different** than 175 cm.
 
 As a sanity check, this result supports the conclusion from the previous test, where we had evidence suggesting the average height of coffee drinkers to be lesser than 175 cm.
+
+## Main Takeaways
+Note how Hypothesis Testing results does not provide a definitive answer. We merely Reject or Fail to Reject the Null Hypothesis. Hence, translating the research question into the hypothesis to be tested is the critical step for this Inference method.
+
+Also, Confidence Interval and Hypothesis Testing only allow to make observations over a Population Parameter. In order to make decisions on the individual level, one should use Machine Learning methods such as Regression and Classification (to be covered in the next post!).
