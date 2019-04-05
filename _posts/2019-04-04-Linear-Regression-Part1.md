@@ -174,7 +174,7 @@ A scatter plot between two variables is a good way to visually inspect correlati
 ```python
 sns.pairplot(data=df,y_vars='area', x_vars=['bedrooms', 'bathrooms','price']);
 ```
-{%include figure image_path='images\Linear-Regression\pair plot example.png'
+{%include figure image_path='images\Linear-Regression-Part1\pair plot example.png'
 caption='Example of Pair Plot between quantitative variables'%}
 
 <br>
@@ -184,7 +184,7 @@ The main algorithm used to find the line that best fit the data. It minimizes th
 
 Basically, it tries to minimize the error.
 
-{%include figure image_path='images\Linear-Regression\Simple Linear Model.jpg'
+{%include figure image_path='images\Linear-Regression-Part1\Simple Linear Model.jpg'
 caption='Example of a Simple Linear Model'%}
 <br>
 
@@ -341,7 +341,7 @@ It is also the reason behind the unexpected flipped sign for the bedrooms coeffi
 
 >Just as well, you would expect a house with more bedrooms to become more and more expensive; not cheaper!
 
-This and other **potential modeling problems** will be covered later with more details. But basically, in situations like this, we would remove the correlated features from our model, retaining only the "most important one". 
+This and other **potential modeling problems** will be covered in more details later, in Part 2. But basically, in situations like this, we would remove the correlated features from our model, retaining only the "most important one". 
 
 The *"most important one"* can be understood as:
 + A specific variable we have particular interest in understanding/capturing
@@ -913,7 +913,7 @@ Enter the trade-off of linear models: flexible terms might improve model perform
 sns.pairplot(data=df, y_vars='price', x_vars=['area', 'bedrooms','bathrooms']);
 ```
 
-{%include figure image_path='images\Linear-Regression\Pair plot y-X.png'
+{%include figure image_path='images\Linear-Regression-Part1\Pair plot y-X.png'
 caption='Pair plot between the Response and quantitative Explanatory Variables'%}
 
 
@@ -927,7 +927,7 @@ sns.lmplot(x='area', y='price', data=df, hue='neighborhood', size=4,
 plt.title('Pair plot of Price and Area by Neighborhood');
 ```
 
-{%include figure image_path='images\Linear-Regression\Pair plot with hue.png'
+{%include figure image_path='images\Linear-Regression-Part1\Pair plot with hue.png'
 caption='Pair plot of Price and Area, by Neighborhood'%}
 
 
