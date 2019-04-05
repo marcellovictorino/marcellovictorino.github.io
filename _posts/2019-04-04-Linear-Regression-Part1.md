@@ -1,5 +1,5 @@
 ---
-title: Linear Regression Overview
+title: Linear Regression Part 1 - Linear Models
 excerpt: Basic overview of linear regression, covering simple linear model and multiple linear model, working with quantitative and categorical data. More specifically, how to model and interpret the results. It also covers Flexible linear models, when to implement them (higher order and/or interaction terms) and the trade-off between flexibility (prediction power) and interpretability.
 tags: [Data Analysis]
 categories: [Post]
