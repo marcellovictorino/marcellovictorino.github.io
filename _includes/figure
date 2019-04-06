@@ -3,7 +3,7 @@
     {% if include.image_path contains '://' %}
       "{{ include.image_path }}"
     {% else %}
-      "{{ site.url }}{{ include.image_path | relative_url }}"
+      "{{ site.url }}/{{ include.image_path }}"
     {% endif %}
 
     {% if include.alt %}
