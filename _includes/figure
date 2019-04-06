@@ -1,7 +1,7 @@
 <figure class="{{ include.class }}">
   <img src=
-    {% if include.image_path contains "://" %}
-      "{{ include.image_path }}"
+    {% if jekyll.environment == 'production' %}
+      "{{ include.image_path | site.url }}"
     {% else %}
       "{{ include.image_path | relative_url }}"
     {% endif %}
