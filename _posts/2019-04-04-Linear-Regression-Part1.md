@@ -89,7 +89,7 @@ df.head(3)
 ## Correlation Coefficient, $$R$$
 Measure of strength and direction of linear relationship between a pair of variables. Also know as Pearson's correlation coefficient.
 
-+ Value varies between [-1, 1], representing negative and positive relationship
++ Value varies between [-1, 1], representing negative and positive **linear** relationship
 + Strength:
     - $$0 \leq R < 0.3$$: Weak correlation
     - $$0.3 \leq R < 0.7$$: Moderate correlation
@@ -266,10 +266,10 @@ In this simple example, we are tying to predict house prices as a function of th
   $$H_1: \beta \neq 0$$
 </div>
 
-+ **R-squared**: it is a metric of model performance. Represents the amount of observations that can be explained by the model. In this case, 0.678 or 67.8%.
++ **R-squared**: it is a metric of model performance. Represents the amount of observations that can be "explained" by the model. In this case, 0.678 or 67.8%.
     - It is calculated as the square of the Correlation Coefficient, hence its value varies between [0, 1].
 
-> **Note:** **R-squared** is a poor metric. Better and more robust forms of model evaluation are covered in a later section, such as accuracy, precision, and recall.
+> **Note:** **R-squared** is a metric only capturing linear relationship. Better and more robust forms of model evaluation are covered in Part 3 of this Linear Regression series, such as accuracy, precision, and recall.
 
 <br>
 # Multiple Linear Regression
