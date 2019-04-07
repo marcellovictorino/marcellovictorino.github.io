@@ -47,8 +47,6 @@ Similar to both approaches, you will need to:
 ### 1.A) Install Git
 I am not going to insult your intelligence. Just go ahead and install [Git](https://git-scm.com/downloads) in your local machine - even if you have no idea what it is or what it does.
 
-<br>
-
 ### 1.B) Create your own Github repository
 You will need to create a Github account. <br>
 Create a new repository using this specific nomenclature: <br>`your-github-username.github.io` <br>
@@ -95,7 +93,7 @@ You should be able to open your favorite browser and navigate to `your-github-us
 ## 2) Going further...
 <br>
 ### 2.A) General Customization
-Alright, if you wanted to build your own website, you must have know this time would come! Here is where things start to get *technical*. If you want to follow along the more **Simplistic** approach, just suck it up and follow the next instructions. <br>
+Alright, if you wanted to build your own website, you must have known this time would come! Here is where things start to get *technical*. If you want to follow along the more **Simplistic** approach, just suck it up and follow the next instructions. <br>
 But if you want to stay in wonderland and see how far the rabbit hole goes... bear with me. More advanced customizations and template logic will be covered in the next post (wait for Part 2).
 
 The `_config.yml` file holds general information used to build your personal website. Open it with your favorite text editor (i.e. VS Code). Most fields are self-explanatory or have some sort of instruction. <br>
@@ -170,6 +168,7 @@ Consectetur adipiscing elit, sed do **eiusmod tempor** incididunt ut labore et d
 > Viverra justo nec ultrices dui sapien eget mi. Pellentesque diam volutpat commodo sed. Viverra nam libero justo laoreet sit amet cursus sit. In fermentum et sollicitudin ac.
 ```
 The snippet above contain some examples for the metadata (don't worry about tags/categories for now) and the content markdown. You can find more in the [Markdown Documentation](https://www.markdownguide.org/cheat-sheet/) page.
+
 
 ### 2.D) Customize your Landing Page
 Just so your website starts to look flashier, let's also add some bonus customization to your landing page. <br>
