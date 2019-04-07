@@ -42,6 +42,8 @@ Similar to both approaches, you will need to:
 
 <hr>
 
+## 1) Getting started
+<br>
 ### 1.A) Install Git
 I am not going to insult your intelligence. Just go ahead and install [Git](https://git-scm.com/downloads) in your local machine - even if you have no idea what it is or what it does.
 
@@ -50,7 +52,7 @@ I am not going to insult your intelligence. Just go ahead and install [Git](http
 ### 1.B) Create your own Github repository
 You will need to create a Github account. <br>
 Create a new repository using this specific nomenclature: <br>`your-github-username.github.io` <br>
-Don't worry about Readme.md or Gitignore at this step. <br>
+Make sure you `initialize the repository with a Readme.md`. <br>
 Click on ```Clone or Download``` button; copying the url link to this repository. <br>
 Create a new Folder on your local machine, where you will keep all the project files.<br>
 Open the Git bash in your project folder (many ways to do this). 
@@ -90,6 +92,8 @@ Finally you *push* all these changes, applying them to your repository.
 Okay. Give it a minute. Github Pages auto deploy the website (if using this specific repository nomenclature) after a new *push* has been made.<br>
 You should be able to open your favorite browser and navigate to `your-github-username.github.io` to check whether a very simple website loads or not.
 
+## 2) Going further...
+<br>
 ### 2.A) General Customization
 Alright, if you wanted to build your own website, you must have know this time would come! Here is where things start to get *technical*. If you want to follow along the more **Simplistic** approach, just suck it up and follow the next instructions. <br>
 But if you want to stay in wonderland and see how far the rabbit hole goes... bear with me. More advanced customizations and template logic will be covered in the next post (wait for Part 2).
