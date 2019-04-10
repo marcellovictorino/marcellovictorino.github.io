@@ -25,11 +25,11 @@ LINKS
 This is Part 2 of the Tutorial on "How to Create your own personal website". It builds on top of the previous one, showing more advanced functionalities for those willing to dig deeper into the code.
 
 #TODO: continue from here
-This tutorial will cover two approaches to acomplish the same goal. Feel free to pick one and follow along:
+This tutorial will cover two approaches to accomplish the same goal. Feel free to pick one and follow along:
 1. **Simplistic**: doesn't require any installation. Just copy-and-paste, following along this tutorial instructions. If you are not interested in understanding what is going on and just wants your own personal blog right away.
-2. **Developer Mode**: a little bit painfull, requiring to install ruby and all necessary gems (packages) in your own local machine. But allows for easy deploy on localhost, so you can preview your changes, testing them multiple times until happy with the results. Then you would push the changes so Github performs its magic and auto deploy your site.
+2. **Developer Mode**: a little bit painful, requiring to install ruby and all necessary gems (packages) in your own local machine. But allows for easy deploy on localhost, so you can preview your changes, testing them multiple times until happy with the results. Then you would push the changes so Github performs its magic and auto deploy your site.
 
-This tutorial builds on top of this [awesome Youtube Tutorial (by Data Optimal)](https://www.youtube.com/watch?v=qWrcgHwSG8M). Feel free to use both resources!
+This tutorial builds on top of this [awesome YouTube Tutorial (by Data Optimal)](https://www.youtube.com/watch?v=qWrcgHwSG8M). Feel free to use both resources!
 
 ## Basic Steps
 Similar to both approaches, you will need to:
