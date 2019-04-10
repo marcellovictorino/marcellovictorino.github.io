@@ -192,9 +192,7 @@ Now that you have made some significant changes in your project structure, it is
 Head to `your-github-username.github.io` to see what it looks like!
  
 <hr>
-So how does it look? Stay tuned for the more advanced Part 2 of this tutorial, where you will be able to add more customization and auto generate page content using theme logic.
-
-As always, constructive feedback is always appreciated. Feel free to leave any comments/suggestions.
+Stay tuned for the more advanced Part 2 of this tutorial, where you will be able to add more customization and auto generate page content using theme logic.
 
 ## Technologies Used
 + **Jekyll**: framework for generating static website based on a set project structure
