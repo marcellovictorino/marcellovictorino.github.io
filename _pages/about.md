@@ -1,6 +1,7 @@
 ---
 title: "About"
 permalink: /about/
+layout: simple
 header:
     image: "/images/banner_about.jpg"
 classes: wide
