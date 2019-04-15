@@ -1,3 +1,4 @@
+.gitignore
 .bundle
 .DS_Store
 .jekyll-metadata
@@ -5,3 +6,4 @@
 Gemfile.lock
 .travis.yml
 _site
+settings.json
