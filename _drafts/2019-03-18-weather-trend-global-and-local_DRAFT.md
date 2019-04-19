@@ -1,12 +1,11 @@
 ---
-title: 'Weather Trend: Global and Local'
+title: 'Weather Trend: Global and Local (DRAFT)'
 excerpt: >-
   Explores the Weather dataset analyzing trends and patterns in the Global and
   Local average temperature for the past century.
 tags: [Data Analysis]
 categories: [Project]
 date: 2019-02-16T12:38:23.535Z
-thumbnail: /images/global-warming.jpg
 toc: true
 classes: wide
 ---
