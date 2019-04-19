@@ -6,7 +6,6 @@ excerpt: >-
 tags: [Data Analysis]
 categories: [Project]
 date: 2019-02-16T12:38:23.535Z
-toc: true
 classes: wide
 ---
 
