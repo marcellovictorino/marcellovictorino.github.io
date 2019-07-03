@@ -7,7 +7,9 @@ date: 2019-07-01 00:00:00 +0000
 thumbnail: \images\Project5-FordGoBike\Thumbnail.jpg
 ---
 
-$$\implies$$ <a href="\images\Project5-FordGoBike\2_Presentation.slides.html" target="_blank"><b>Summary Presentation</b></a>
+
+$$\implies$$ <a href="\images\Project5-FordGoBike\2_Presentation.slides.html" target="_blank"><b>Summary Presentation</b></a> (press `spacebar` to navigate through the Jupyter Slide Deck)
+
 
 ## Dataset
 
