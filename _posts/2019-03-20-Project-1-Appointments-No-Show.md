@@ -1,7 +1,7 @@
 ---
 title: Project 1 - Appointments No-Show
 excerpt: Analysis of the Appointments No-Show dataset, based on medical appointments data in Brazil. Particularly, investigating if there are any factors that influence the appointment attendance (independent variable) and evaluating predictive analytics.
-tags: [Data Analysis]
+tags: 
 categories: [Project]
 date: 2019-04-19 00:00:00 +0000
 thumbnail: /images/Project1-Appointment-No-Show/Doctor-appointment.jpg

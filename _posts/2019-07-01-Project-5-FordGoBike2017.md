@@ -1,7 +1,7 @@
 ---
 title: Project 5 - Ford GoBike 2017
 excerpt: Data wrangling and systematic Exploratory Data Analysis of the Bike-share system, Ford GoBike (+3 million observations). Univariate analysis to identify outliers, as well as performing transformations on highly skewed data. Bi-variate and Multivariate analysis investigating the relationship between all features and uncovering interesting insights from the data.
-tags: [Data Analysis]
+tags: 
 categories: [Project]
 date: 2019-07-01 00:00:00 +0000
 thumbnail: \images\Project5-FordGoBike\Thumbnail.jpg
